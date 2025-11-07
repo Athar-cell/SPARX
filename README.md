@@ -53,19 +53,8 @@ The dataset (`sample_data.csv`) is **synthetic**, generated to simulate real ath
 git clone https://github.com/<your-username>/SPARX-prototype.git
 cd SPARX-prototype
 Run the Model & App
-(A) Regenerate Dataset and Model
-python train_model.py
 
-
-This creates sample_data.csv and model.joblib.
-
-(B) Run the Dashboard
-streamlit run app.py
-
-
-Then open the local Streamlit link (shown in terminal, usually http://localhost:8501).
-
-🖥️ How to Use the Dashboard
+#### How to Use the Dashboard
 
 Manual Input (Sidebar): Enter athlete data (training duration, RPE, etc.) and click "Predict".
 
@@ -79,7 +68,7 @@ Risk Level (Low / Medium / High)
 
 Recommendations for training intensity
 
-🧠 Machine Learning Model
+ ####Machine Learning Model
 
 Model Type: Logistic Regression
 
@@ -91,7 +80,7 @@ Current Accuracy: ~75–80% (on synthetic data)
 
 Next Upgrade: Add RandomForest / XGBoost for real datasets.
 
-🌱 Future Scope
+### Future Scope
 
 ✅ Integrate real sports datasets (from Kaggle / athlete trackers)
 ✅ Use wearable sensor data (heart rate, GPS, speed)
@@ -99,7 +88,7 @@ Next Upgrade: Add RandomForest / XGBoost for real datasets.
 ✅ Deploy on Streamlit Cloud / Hugging Face Spaces
 ✅ Build mobile-friendly UI
 
-👨‍💻 Author
+###👨‍💻 Author
 
 Athar Sharma
 B.Tech CSE (3rd Year) — DIT University
@@ -113,7 +102,7 @@ Hackathon: SportsTech Hackathon 2025
 Stage: 2 — Software Prototype Submission
 Project: SPARX — AI-based Sports Performance & Injury Risk Analytics
 Type: Software-based solution (AI/ML + Analytics Dashboard)
-Status: ✅ Basic Prototype (working Streamlit demo + trained model)
+Status:  Basic Prototype (working Streamlit demo + trained model)
 
 📜 License
 
